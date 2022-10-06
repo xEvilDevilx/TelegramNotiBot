@@ -1,0 +1,63 @@
+INFO  2019-06-14 14:23:58,303    46ms BotCore                Init                       - Begin
+INFO  2019-06-14 14:23:58,318    62ms BotCore                LoadLastMessageID          - Begin
+INFO  2019-06-14 14:23:58,318    62ms BotCore                LoadLastMessageID          - End. Last Message json file doesn't exists.
+INFO  2019-06-14 14:23:58,318    62ms BotCore                LoadGroupIDs               - Begin
+INFO  2019-06-14 14:23:58,318    62ms BotCore                LoadGroupIDs               - End. Groups json file doesn't exists.
+INFO  2019-06-14 14:23:58,334    78ms BotCore                Init                       - End
+INFO  2019-06-14 14:23:58,334    78ms BotCore                MoveNext                   - Begin
+ERROR 2019-06-14 14:23:58,608   352ms BotCore                MoveNext                   - Error!
+System.Net.Http.HttpRequestException: Произошла ошибка при отправке запроса. ---> System.Net.WebException: Базовое соединение закрыто: Не удалось установить доверительные отношения для защищенного канала SSL/TLS. ---> System.Security.Authentication.AuthenticationException: Удаленный сертификат недействителен согласно результатам проверки подлинности.
+   в System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   в System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   в System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   в System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Telegram.Bot.TelegramBotClient.<MakeRequestAsync>d__54`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TelegramNotiBot.Core.BotCore.<Start>d__6.MoveNext() в G:\DEVELOPMENT\TelegramNotiBot\TelegramNotiBot\TelegramNotiBot\Core\BotCore.cs:строка 43
+INFO  2019-06-14 15:24:33,626    59ms BotCore                Init                       - Begin
+INFO  2019-06-14 15:24:33,642    74ms BotCore                LoadLastMessageID          - Begin
+INFO  2019-06-14 15:24:33,642    74ms BotCore                LoadLastMessageID          - End. Last Message json file doesn't exists.
+INFO  2019-06-14 15:24:33,642    74ms BotCore                LoadGroupIDs               - Begin
+INFO  2019-06-14 15:24:33,642    74ms BotCore                LoadGroupIDs               - End. Groups json file doesn't exists.
+INFO  2019-06-14 15:24:33,642    74ms BotCore                Init                       - End
+INFO  2019-06-14 15:24:33,642    74ms BotCore                MoveNext                   - Begin
+ERROR 2019-06-14 15:24:33,938   371ms BotCore                MoveNext                   - Error!
+System.Net.Http.HttpRequestException: Произошла ошибка при отправке запроса. ---> System.Net.WebException: Базовое соединение закрыто: Не удалось установить доверительные отношения для защищенного канала SSL/TLS. ---> System.Security.Authentication.AuthenticationException: Удаленный сертификат недействителен согласно результатам проверки подлинности.
+   в System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   в System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   в System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   в System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Telegram.Bot.TelegramBotClient.<MakeRequestAsync>d__54`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TelegramNotiBot.Core.BotCore.<Start>d__6.MoveNext() в G:\DEVELOPMENT\TelegramNotiBot\TelegramNotiBot\TelegramNotiBot\Core\BotCore.cs:строка 43
+INFO  2020-09-13 00:45:37,099    44ms BotCore                Init                       - Begin
+INFO  2020-09-13 00:45:37,137    82ms BotCore                LoadLastMessageID          - Begin
+INFO  2020-09-13 00:45:37,137    82ms BotCore                LoadLastMessageID          - End. Last Message json file doesn't exists.
+INFO  2020-09-13 00:45:37,138    83ms BotCore                LoadGroupIDs               - Begin
+INFO  2020-09-13 00:45:37,138    83ms BotCore                LoadGroupIDs               - End. Groups json file doesn't exists.
+INFO  2020-09-13 00:45:37,144    89ms BotCore                Init                       - End
+INFO  2020-09-13 00:45:37,145    89ms BotCore                MoveNext                   - Begin
+ERROR 2020-09-13 00:45:39,037  1982ms BotCore                MoveNext                   - Error!
+Telegram.Bot.Exceptions.ApiRequestException: Unauthorized
+   в Telegram.Bot.TelegramBotClient.<MakeRequestAsync>d__54`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TelegramNotiBot.Core.BotCore.<Start>d__6.MoveNext() в G:\DEVELOPMENT\TelegramNotiBot\TelegramNotiBot\TelegramNotiBot\Core\BotCore.cs:строка 43
